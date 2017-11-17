@@ -4,7 +4,7 @@
 * Exam 25%
 
 # Book
-[Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation] (https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
+[Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
 We will read all chapters in this book. See schedule below.
 
 # Q&A
@@ -32,7 +32,7 @@ Efni fyrirlestranna er að finna að miklu leyti í bókinni, ættir því að g
 Nemendur mega velja hvort þeir vinni verkefnin sem einstaklingar eða í pörum. Það er erfitt að meta álagið nákvæmlega, það fer verulega eftir hvaða kunnáttu menn koma með inn í kúrsinn. Við munum gera okkar besta í að halda álaginu hóflegu, þ.e. c.a. 9-5 vinna ætti að duga flestum.
 
 #### Þarf ég að hafa Linux uppsett á vélinni minni?
-Byggt að reynslu síðustu ára viljum við að allir nemendur séu að vinna sama umhverfi og mælumst við til þess að allir setja upp Linux með einhverjum hætti. Það er hægt að keyra það í sýndarumhverfi eins og t.d. VirtualBox, setja upp dual-boot, eða keyra upp á minnislykli. Nemendur þurfa ásamt því að vera með góðan editor á vélinni sinni, svo sem WebStorm, SubLime, Atom eða sambærilegt. **Æskilegt er að hafa vél með 8GB í minni, 4GB ætti að sleppa fyrir horn.** Við munum gefa út leiðbeiningar um uppsetningu síðar.
+Byggt að reynslu síðustu ára viljum við að allir nemendur séu að vinna sama umhverfi og mælumst við til þess að allir setji upp Linux með einhverjum hætti. Það er hægt að keyra það í sýndarumhverfi eins og t.d. VirtualBox, setja upp dual-boot, eða keyra upp á minnislykli. Nemendur þurfa ásamt því að vera með góðan editor á vélinni sinni, svo sem VS Code, WebStorm, SubLime, Atom eða sambærilegt. **Æskilegt er að hafa vél með 8GB í minni, 4GB ætti að sleppa fyrir horn.** Við munum gefa út leiðbeiningar um uppsetningu síðar.
 
 # Schedule
 ## Week 1
