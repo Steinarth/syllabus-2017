@@ -5,6 +5,7 @@
 
 # Book
 [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
+
 We will read all chapters in this book. See schedule below.
 
 # Q&A
@@ -23,7 +24,7 @@ Nei, við verum ekki með Piazza heldur ætlum við að notast frekar við Issue
 Já þeir verða teknir upp, linkur á þá verður settur inn á Canvas undir Modules.
 
 #### Hvenær lýkur námskeiðinu, þ.e., hvenær er próf?
-Að öllu óbreyttu verður prófið haldið síðasta dag námskeiðsins, þ.e. 15. des og skil á síðasta verkefinu síðar þann dag. 
+Að öllu óbreyttu verður prófið haldið síðasta dag námskeiðsins, þ.e. 15. des og skil á síðasta verkefinu síðar þann dag. Til að standast áfangann verða nemendur að fá yfir 4,75 á prófinu.
 
 #### Hversu vont mál að missa úr tíma?
 Efni fyrirlestranna er að finna að miklu leyti í bókinni, ættir því að geta haldið í við efnið með því að lesa viðkomandi kafla extra-vel. Aftur á móti þá eru líka kynningar á verkefnum dagsins.
