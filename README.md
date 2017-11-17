@@ -3,6 +3,10 @@
 * Individual/Pair assignment – 75%
 * Exam 25%
 
+# Book
+[Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation] (https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
+We will read all chapters in this book. See schedule below.
+
 # Q&A
 ### Spurt og svarað
 
