@@ -10,7 +10,7 @@
 Í stuttu máli er þetta hagnýt gæðastjórnun á hugbúnaði, fyrst og fremst frá sjónarhóli forritara. Það verður komið lítillega inn á stjórnunaraðferðir, samstarf við prófara, og hugsanlega verður eitthvað farið dýpra í nýtileikaprófanir (usability testing). Verkefnavinna snýst að verulegu leyti um sjálfvirknivæðingu á uppsetningarferli, einingaprófanir, sjálfvirkar viðmótsprófanir og aðferðir til að tryggja gæði í afhendingu hugbúnaðar.
 
 #### Hvernig er fyrirkomulag námskeiðsins?
-Megináherslan í námskeiðinu er á verkefnavinnu. Í lok hverrar viku eru verkefnaskil, hvert verkefni um sig gildir 25%. Nemendur mega velja hvort þeir vinni verkefnið einir eða í pörum. Dagarnir ganga þannig fyrir sig að við erum með fyrirlestra fyrir hádegi og eftir hádegi geta nemendur unnið í verkefni dagsins (sem nýtist í skilaverkefni) og það verða dæmatímakennarar til aðstoðar. Við byrjum fyrirlestrarna kl 09:00 og dæmatímarnir eru frá kl: 13:00 - 16:00.
+Megináherslan í námskeiðinu er á verkefnavinnu. Í lok hverrar viku eru verkefnaskil, hvert verkefni um sig gildir 25%. Nemendur mega velja hvort þeir vinni verkefnið einir eða í pörum, ef tveir vinna saman viljum við sjá jafnt framlag frá báðum aðilum inn á Git history. Dagarnir ganga þannig fyrir sig að við erum með fyrirlestra fyrir hádegi og eftir hádegi geta nemendur unnið í verkefni dagsins (sem nýtist í skilaverkefni) og það verða dæmatímakennarar til aðstoðar. Við byrjum fyrirlestrarna kl 09:00 og dæmatímarnir eru frá kl: 13:00 - 16:00.
 
 #### Er hægt að senda fyrirspurning Piazza ?
 Nei, við verum ekki með Piazza heldur ætlum við að notast frekar við Issues hér á GitHub. Þar sem við erum líka að hittast á hverjum degi gerum við ráð fyrir að fá flestar spurningar í dæmatímum. 
