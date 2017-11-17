@@ -34,3 +34,13 @@ Nemendur mega velja hvort þeir vinni verkefnin sem einstaklingar eða í pörum
 #### Þarf ég að hafa Linux uppsett á vélinni minni?
 Byggt að reynslu síðustu ára viljum við að allir nemendur séu að vinna sama umhverfi og mælumst við til þess að allir setja upp Linux með einhverjum hætti. Það er hægt að keyra það í sýndarumhverfi eins og t.d. VirtualBox, setja upp dual-boot, eða keyra upp á minnislykli. Nemendur þurfa ásamt því að vera með góðan editor á vélinni sinni, svo sem WebStorm, SubLime, Atom eða sambærilegt. **Æskilegt er að hafa vél með 8GB í minni, 4GB ætti að sleppa fyrir horn.** Við munum gefa út leiðbeiningar um uppsetningu síðar.
 
+# Schedule
+## Week 1
+### Day 1: Mon. 27th of November
+|    | Mon | Tue | Wed | Thu | Fri |
+| -- | --- | --- | --- | --- | --- |
+| **Lecture** | - Introduction <br> - The Problem of Delivering Software | - Configuration Management<br> - Advanced Version Control | Build and Deployment Scripting | Deploying and Releasing Applications | No lecture, Lab day |
+| **Reading Assignment** | Chapter 1 | Chapter 2, (3), (13), 14 | Chapter 6, 13 | Chapter 10, (11) |  |
+| **Lab exercise** | Linux 101 | Docker | AWS | Build script | Week 1 assignment |
+
+
