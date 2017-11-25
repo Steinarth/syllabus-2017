@@ -32,11 +32,14 @@ Create a bash script that installs all your programs/dependencies (text editor a
 The following information can be found [here for creating new key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) and [here for adding to github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 ### Generate SSH key
 ```ssh-keygen -t rsa -b 4096 -C "your_email@example.com"```
+
 ```Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]```
+
 ```
 Enter passphrase (empty for no passphrase): [Press enter]
 Enter same passphrase again: [Press enter]
 ```
+
 ### Adding SSH key to ssh-agent
 ```eval "$(ssh-agent -s)"```
 
@@ -71,8 +74,6 @@ pbcopy < ~/.ssh/id_rsa.pub
 * Paste the previously copied key to the Key field
 * Click **Add SSH Key**
 
-### Clone repository from the course via ssh
-```git clone git@github.com:hgop/syllabus-2017.git```
 ## How do I know I'm done?
 - [ ] I have answered the questions about Linux
 - [ ] I have created an executable script that completes all requirements
