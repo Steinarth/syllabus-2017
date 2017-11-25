@@ -77,5 +77,4 @@ pbcopy < ~/.ssh/id_rsa.pub
 - [ ] I have answered the questions about Linux
 - [ ] I have created an executable script that completes all requirements
 - [ ] I have commented all the lines in the script (what is the purpose of each line of code)
-- [ ] I have successfully cloned the course repository via ssh
-- [ ] I have commited, and pushed the script and answers to my github page so my teachers can review
+- [ ] I have commited, and pushed the script and answers to my github repository so my teachers can review
