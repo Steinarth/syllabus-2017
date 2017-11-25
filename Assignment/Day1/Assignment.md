@@ -1,17 +1,19 @@
-First draft for Linux:
-
-# Linux
+# Getting to know Linux
 Getting to know the Linux operating system
 
 * Create a git repository on GitHub for week 1.
 * Solve the following problems inside a folder for day 1 in your repository:
 
+## Questions
 - [ ] What is Linux?
 - [ ] Why should you use Linux? What are the pros and cons?
+
+## Objectives
 - [ ] Set up Linux Ubuntu 16.04 on your machine (options include, mono/dual boot, Virtual Machine options (VMWare, VirtualBox, Parallels), Boot from USB) (Not necessary on Mac)
 - [ ] Install an editor (options include, VS Code, Atom, WebStorm, Sublime).
 - [ ] Install git.
 
+## Assignment
 Create a bash script that installs all your programs/dependencies (text editor and git (more dependencies might be added later))
 - [ ] Make sure all bash commands are commented.
 - [ ] The script should prompt the user with:
