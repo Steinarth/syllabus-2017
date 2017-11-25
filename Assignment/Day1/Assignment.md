@@ -17,7 +17,7 @@ Getting to know the Linux operating system
 Create a bash script that installs all your programs/dependencies (text editor and git (more dependencies might be added later))
 - [ ] Make sure all bash commands are commented.
 - [ ] The script should prompt the user with:
-    - [ ] With a welcome message that includes the current user’s username (the username should not be hard coded).
+    - [ ] A welcome message that includes the current user’s username (the username should not be hard coded).
     - [ ] Information on what it does
     - [ ] What type of Linux system it is running on
     - [ ] Ask “are you sure you want to continue y/n” and abort if the user types in anything other than ‘y’ or ‘Y’.
