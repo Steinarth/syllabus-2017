@@ -18,7 +18,7 @@ We will read all chapters in this book. See schedule below.
 Megináherslan í námskeiðinu er á verkefnavinnu. Í lok hverrar viku eru verkefnaskil, hvert verkefni um sig gildir 25%. Nemendur mega velja hvort þeir vinni verkefnið einir eða í pörum, ef tveir vinna saman viljum við sjá jafnt framlag frá báðum aðilum inn á Git history. Dagarnir ganga þannig fyrir sig að við erum með fyrirlestra fyrir hádegi og eftir hádegi geta nemendur unnið í verkefni dagsins (sem nýtist í skilaverkefni) og það verða dæmatímakennarar til aðstoðar. Við byrjum fyrirlestrarna kl 09:00 og dæmatímarnir eru frá kl: 13:00 - 16:00.
 
 #### Er hægt að senda fyrirspurnir Piazza ?
-Nei, við verum ekki með Piazza heldur ætlum við að notast frekar við Issues hér á GitHub. Þar sem við erum líka að hittast á hverjum degi gerum við ráð fyrir að fá flestar spurningar í dæmatímum. 
+Nei, við verum ekki með Piazza heldur ætlum við að notast frekar við Issues hér á GitHub. Þar sem við erum líka að hittast á hverjum degi gerum við ráð fyrir að fá flestar spurningar í dæmatímum.
 
 #### Verða fyrirlestrar teknir upp?
 Já þeir verða teknir upp, linkur á þá verður settur inn á Canvas undir Modules.
@@ -42,6 +42,4 @@ Byggt að reynslu síðustu ára mælum við með að allir nemendur séu að vi
 | -- | --- | --- | --- | --- | --- |
 | **Lecture** | - Introduction <br> - The Problem of Delivering Software | - Configuration Management<br> - Advanced Version Control | Build and Deployment Scripting | Deploying and Releasing Applications | No lecture, Lab day |
 | **Reading Assignment** | Chapter 1 | Chapter 2, (3), (13), 14 | Chapter 6, 13 | Chapter 10, (11) |  |
-| **Lab exercise** | Linux 101 | Docker | AWS | Build script | Week 1 assignment |
-
-
+| **Lab exercise** | [Linux 101](/Assignment/Day1/Assignment.md) | Docker | AWS | Build script | Week 1 assignment |
