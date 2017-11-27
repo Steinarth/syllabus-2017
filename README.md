@@ -41,5 +41,5 @@ Byggt að reynslu síðustu ára mælum við með að allir nemendur séu að vi
 |    | Mon | Tue | Wed | Thu | Fri |
 | -- | --- | --- | --- | --- | --- |
 | **Lecture** | - Introduction <br> - The Problem of Delivering Software | - Configuration Management<br> - Advanced Version Control | Build and Deployment Scripting | Deploying and Releasing Applications | No lecture, Lab day |
-| **Reading Assignment** | Chapter 1 | Chapter 2, (3), (13), 14 | Chapter 6, 13 | Chapter 10, (11) |  |
+| **Reading Assignment** | Chapter 1 | Chapter 2, 3 (79-81), 13 (346-351), 14 | Chapter 6, 13 | Chapter 10, (11) |  |
 | **Lab exercise** | [Linux 101](/Assignment/Day1/Assignment.md) | Docker | AWS | Build script | Week 1 assignment |
