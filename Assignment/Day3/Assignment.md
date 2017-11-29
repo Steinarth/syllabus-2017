@@ -24,9 +24,8 @@ Login to aws. You must have your AWS credentials first.
 aws configure
 ```
 
-Command line will ask you for your credentials. You can access this from the aws web console
-console.aws.amazon.com -> "My Security Credentials"
-
+Command line will ask you for your credentials. You can create credentials from the aws web console
+console.aws.amazon.com -> IAM -> Users -> "Add User"
 
 When up and running with AWS, and you can access the management console web UI,
 follow this tutorial:
