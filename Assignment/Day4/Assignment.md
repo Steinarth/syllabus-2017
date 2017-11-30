@@ -139,7 +139,7 @@ If you get:
 ~~~
 ["chicken","cow","deer","donkey","elephant","lion","monkey","rhino","tiger","zebra"]
 ~~~
-You have finished part x+1
+You have finished part 1
 
 ## Part 2 - Deploy the app
 
