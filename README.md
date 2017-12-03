@@ -72,3 +72,11 @@ góðan editor á vélinni sinni, svo sem VS Code, WebStorm, SubLime, Atom eða 
 | **Lecture**            | - Introduction <br> - The Problem of Delivering Software | - Configuration Management<br> - Advanced Version Control | - The anatomy of the build pipeline <br> - Build and Deployment Scripting<br> | Deploying and Releasing Applications               | No lecture, Lab day                                 |
 | **Reading Assignment** | Chapter 1                                                | Chapter 2, (3), (13), 14                                  | Chapter 5, 6                                                                  | Chapter 10, (11)                                   |                                                     |
 | **Lab exercise**       | [Linux 101](/Assignment/Day1/Assignment.md)              | [Docker](/Assignment/Day2/day2.md)                        | [AWS](/Assignment/Day3/Assignment.md)                                         | [Build and Deploy](/Assignment/Day4/Assignment.md) | [Week 1 assignment](/Assignment/Day5/Assignment.md) |
+
+## Week 2
+### Day 1: Mon. 4th of December
+|    | Mon | Tue | Wed | Thu | Fri |
+| -- | --- | --- | --- | --- | --- |
+| **Lecture** | - Implementing a Test Strategy  <br> - The Commit Stage <br> - Jenkins | - TDD Demo <br> - Event sourcing <br>- Introduce project<br> - JavaScript coding techniques <br> | - Automated Acceptance Testing<br>  | - Testing Nonfunctional Requirements <br> - Unit Testing Best Practices <br> - Acceptance Test Demo | No lecture, Lab day |
+| **Reading Assignment** | Chapter 4,7 |  | Chapter 8 | Chapter 9 |  |
+| **Lab exercise** | Jenkins | - Get reference project up and running <br> - Unit tests (TDD) | - Deploy using Jenkins <br> - Test reports | Acceptance Test | Week 2 assignment |
