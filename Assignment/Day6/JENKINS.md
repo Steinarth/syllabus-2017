@@ -54,7 +54,7 @@ aws iam attach-role-policy --role-name StudentCICDServer --policy-arn $ARN
 
 aws iam create-instance-profile --instance-profile-name CICDServer-Instance-Profile
 
-aws iam add-role-to-instance-profile --role-name cicd --instance-profile-name CICDServer-Instance-Profile
+aws iam add-role-to-instance-profile --role-name StudentCICDServer --instance-profile-name CICDServer-Instance-Profile
 
 aws ec2 associate-iam-instance-profile --instance-id YourInstanceId --iam-instance-profile Name=CICDServer-Instance-Profile
 ```
