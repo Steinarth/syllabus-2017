@@ -64,7 +64,7 @@ aws ec2 associate-iam-instance-profile --instance-id YourInstanceId --iam-instan
 
 The steps above are already done in this account, so students working there should begin here.
 
-Jenkins bootstrap script for EC2 instance.
+Script for setting up Jenkins on your EC2 instance, this script is used in the script below.
 ```
 #!/usr/bin/env bash
 
@@ -124,8 +124,7 @@ scp -o StrictHostKeyChecking=no -i "./ec2_instance/${PEM_NAME}.pem" ec2-user@$(c
 aws ec2 associate-iam-instance-profile --instance-id $(cat ./ec2_instance/instance-id.txt) --iam-instance-profile Name=CICDServer-Instance-Profile
 ```
 
-Common functions used in the script above (see the ```source``` line). Note that provisioning a Jenkins instance is almost identical to provisioning a Docker server,
-so we can reuse that logic.
+Common functions used in the script above (see the ```source``` line). Note that provisioning a Jenkins instance is almost identical to provisioning a Docker server, so we can reuse that logic.
 
 ```
 function create-key-pair(){
