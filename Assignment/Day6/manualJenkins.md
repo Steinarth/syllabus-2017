@@ -171,6 +171,9 @@ Go to the Jenkins console:
 * Build your project
 * Check the console to see if it worked
 
+## Setup Web Hooks
+ [Web-hook-setup](https://medium.com/@marc_best/trigger-a-jenkins-build-from-a-github-push-b922468ef1ae)
+
 ## How do I know I'm done?
 - [ ] I can access my Jenkins console if I log in with a username and password (your instance should not be open to anyone)
 - [ ] I have a project that checks out my code and runs the stages in my Jenkinsfile
