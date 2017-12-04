@@ -9,7 +9,7 @@ Later, having done this will enable us to achieve also:
 
 ## Steps
 
-###Own AWS account
+### Own AWS account (If you are using the student account go to next section)
 
 You will need to create an IAM role, IAM policy and an IAM instance profile. This is done
 so that Jenkins gets permission to execute AWS commands without the need for installing
@@ -60,7 +60,7 @@ aws ec2 associate-iam-instance-profile --instance-id YourInstanceId --iam-instan
 ```
 
 
-##reykjavikuniversity AWS account
+## reykjavikuniversity AWS account
 
 The steps above are already done in this account, so students working there should begin here.
 
@@ -320,7 +320,7 @@ node {
 Go to the Jenkins console:
 
 * Go to `create new project`
-* Pick `pipeline`
+* Pick `pipeline` project (If it is not available you will need to install the plugin)
 * Under `configure` go to `Pipeline`
 * Set `Definition` as `Pipeline script from SCM`
 * As `SCM` choose `Git`
