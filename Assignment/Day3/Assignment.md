@@ -77,7 +77,8 @@ echo ${SECURITY_GROUP_ID} > ./ec2_instance/security-group-id.txt
 MY_PUBLIC_IP=$(curl http://checkip.amazonaws.com)
 
 MY_CIDR=${MY_PUBLIC_IP}/32
-aws ec2 authorize-security-group-ingress --group-name ${SECURITY_GROUP_NAME} --protocol tcp --port 80 --cidr ${MY_CIDR}
+aws ec2 authorize-security-group-ingress --group-name ${SECURITY_GROUP_NAME} --protocol tcp --port 22 --cidr ${MY_CIDR}
+aws ec2 authorize-security-group-ingress --group-name ${SECURITY_GROUP_NAME} --protocol tcp --port 80 --cidr 0.0.0.0/0
 INSTANCE_ID=$(aws ec2 run-instances --user-data file://ec2-instance-init.sh --image-id ami-9398d3e0 --security-group-ids ${SECURITY_GROUP_ID} --count 1 --instance-type t2.micro --key-name ${SECURITY_GROUP_NAME} --query 'Instances[0].InstanceId'  --output=text)
 echo ${INSTANCE_ID} > ./ec2_instance/instance-id.txt
 aws ec2 wait --region eu-west-1 instance-running --instance-ids ${INSTANCE_ID}
