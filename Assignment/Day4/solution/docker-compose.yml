@@ -1,0 +1,17 @@
+version: "2"
+services:
+  my_page_counter_and_item_storage_app:
+    image: username/repository:tag
+    ports:
+     - "3000:3000"
+    links:
+     - my_redis_container
+     - my_postgres_cointainer
+  my_redis_container:
+    image: redis
+  my_postgres_cointainer:
+    image: postgres
+    environment:
+      POSTGRES_DB: 'my_postgres_database'
+      POSTGRES_USER: 'my_postgres_user'
+      POSTGRES_PASSWORD: 'my_postgres_password'

@@ -9,7 +9,7 @@ Later, having done this will enable us to achieve also:
 
 ## Steps
 
-###Own AWS account
+### Own AWS account (If you are using the student account go to next section)
 
 You will need to create an IAM role, IAM policy and an IAM instance profile. This is done
 so that Jenkins gets permission to execute AWS commands without the need for installing
@@ -54,17 +54,17 @@ aws iam attach-role-policy --role-name StudentCICDServer --policy-arn $ARN
 
 aws iam create-instance-profile --instance-profile-name CICDServer-Instance-Profile
 
-aws iam add-role-to-instance-profile --role-name cicd --instance-profile-name CICDServer-Instance-Profile
+aws iam add-role-to-instance-profile --role-name StudentCICDServer --instance-profile-name CICDServer-Instance-Profile
 
 aws ec2 associate-iam-instance-profile --instance-id YourInstanceId --iam-instance-profile Name=CICDServer-Instance-Profile
 ```
 
 
-##reykjavikuniversity AWS account
+## reykjavikuniversity AWS account
 
 The steps above are already done in this account, so students working there should begin here.
 
-Jenkins bootstrap script for EC2 instance.
+Script for setting up Jenkins on your EC2 instance, this script is used in the script below.
 ```
 #!/usr/bin/env bash
 
@@ -124,8 +124,7 @@ scp -o StrictHostKeyChecking=no -i "./ec2_instance/${PEM_NAME}.pem" ec2-user@$(c
 aws ec2 associate-iam-instance-profile --instance-id $(cat ./ec2_instance/instance-id.txt) --iam-instance-profile Name=CICDServer-Instance-Profile
 ```
 
-Common functions used in the script above (see the ```source``` line). Note that provisioning a Jenkins instance is almost identical to provisioning a Docker server,
-so we can reuse that logic.
+Common functions used in the script above (see the ```source``` line). Note that provisioning a Jenkins instance is almost identical to provisioning a Docker server, so we can reuse that logic.
 
 ```
 function create-key-pair(){
@@ -320,7 +319,7 @@ node {
 Go to the Jenkins console:
 
 * Go to `create new project`
-* Pick `pipeline`
+* Pick `pipeline` project (If it is not available you will need to install the plugin)
 * Under `configure` go to `Pipeline`
 * Set `Definition` as `Pipeline script from SCM`
 * As `SCM` choose `Git`
