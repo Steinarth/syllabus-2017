@@ -1,3 +1,5 @@
+# Week 2
+
 For the remainder of week 2 the students will attempt to finish:
 * Setting up Jenkins
 * Create a project that pulls their tic tac toe code from GitHub
