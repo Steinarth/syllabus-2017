@@ -13,10 +13,10 @@ The steps that should be included in the Jenkinsfile:
 Your Jenkinsfile should list all stages and each stage should run the required scripts to complete the following tasks:
 
 Build
+* Install dependencies
 * Run tests
 * Build app
 * Build Docker
-* Archive .env
 * Push docker image with Git Commit as Tag
 
 Deploy
