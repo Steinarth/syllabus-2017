@@ -79,4 +79,4 @@ góðan editor á vélinni sinni, svo sem VS Code, WebStorm, SubLime, Atom eða 
 | -- | --- | --- | --- | --- | --- |
 | **Lecture** | - Implementing a Test Strategy  <br> - The Commit Stage <br> - Jenkins | - TDD Demo <br> - Event sourcing <br>- Introduce project<br> - JavaScript coding techniques <br> | - Automated Acceptance Testing<br>  | - Testing Nonfunctional Requirements <br> - Unit Testing Best Practices <br> | No lecture, Lab day |
 | **Reading Assignment** | Chapter 4,7 |  | Chapter 8 | Chapter 9 |  |
-| **Lab exercise** | [Jenkins](Assignment/Day6/JENKINS.md)               | - [Game logic](Assignment/Day7/tictactoe-intro.md) | - [Jenkins](Assignment/Day8/Assignment.md)   | - Implement Game Logic and Unit Tests | Week 2 assignment |
+| **Lab exercise** | [Jenkins](Assignment/Day6/JENKINS.md)               | - [Game logic](Assignment/Day7/tictactoe-intro.md) | - [Jenkins](Assignment/Day8/Assignment.md)   | - [Implement Game Logic and Unit Tests](Assignment/Day9/game-logic.md) | Week 2 assignment |
