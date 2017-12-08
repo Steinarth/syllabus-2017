@@ -15,7 +15,7 @@ Your repository should be a fork from the tictactoe-student, and contain the fol
 
 - testExamples.md (day 7 assignment)
 - Implementation of game logic and tests in placeholder files in the project.
-- Jenkinsfile to glue the build steps together.
+- Jenkinsfile to glue the build steps together, including deployment.
 
 Make sure that your jenkins instance is open to the RU network in the EC2 security group. Add credentials hgop/<somepassword> to Jenkins, and send 
 the password to the teachers using a comment with the repository URL in Canvas.
