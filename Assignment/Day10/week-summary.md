@@ -20,6 +20,9 @@ Your repository should be a fork from the tictactoe-student, and contain the fol
 Make sure that your jenkins instance is open to the RU network in the EC2 security group. Add credentials hgop/<somepassword> to Jenkins, and send 
 the password to the teachers using a comment with the repository URL in Canvas.
 
+###PS:
+
+New hints and tips regarding deployment can be found [here ](https://github.com/hgop/week2/blob/master/provisioning/README.md)in case you missed them.
 
 
 
