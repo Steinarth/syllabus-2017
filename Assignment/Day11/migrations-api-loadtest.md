@@ -12,6 +12,7 @@ There is one change required to the database in order to have the event persiste
 API tests/load tests will not work without this change. Figure out what it is, and add a database 
 schema migration to apply that change to the database. There are two database migrations already 
 in the project.
+[Documentation for db-migrate](https://db-migrate.readthedocs.io/en/latest/API/SQL/#addcolumntablename-columnname-columnspec-callback)
 
 ### API Tests / Load tests
 In the code for week three in apitest folder, there are five "Assignment:" comments. Finish each, 
