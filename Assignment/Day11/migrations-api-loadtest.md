@@ -15,6 +15,16 @@ in the project.
 [Documentation for db-migrate](https://db-migrate.readthedocs.io/en/latest/API/SQL/#addcolumntablename-columnname-columnspec-callback)
 
 ### API Tests / Load tests
+When your migrations are complete, the API tests should run without failure but the load test will produce an error:
+```
+1) Tictactoe load test : should be able to play 1000 games to end within timelimit of 1000ms
+   Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+       at ontimeout timers.js:475:11
+       at tryOnTimeout timers.js:310:5
+       at Timer.listOnTimeout timers.js:270:5
+   ...
+```
+This is because the count and timelimit are not correct.
 In the code for week three in apitest folder, there are five "Assignment:" comments. Finish each, 
 compile your answers in (in your own words) in assignment.md in the apitest folder. Leave any log 
 statements/comments you add to the code in order to finish these assignments, in place.
