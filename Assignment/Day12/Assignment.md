@@ -25,6 +25,8 @@ Use this plugin [JUnit Plugin](https://wiki.jenkins.io/display/JENKINS/JUnit+Plu
 
 ### Playable game - client side test
 
+**Before you start** There have been minor changes since yesterday to the week3 code that you need to pull into your application [see commit history](https://github.com/hgop/week3/commits/master)
+
 TicCell implementation is incomplete along with the tests. Complete the implementation, fill out the incomplete test so that it tests the TicCell component.
 
 # State
