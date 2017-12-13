@@ -87,5 +87,5 @@ góðan editor á vélinni sinni, svo sem VS Code, WebStorm, SubLime, Atom eða 
 | -- | --- | --- | --- | --- | --- |
 | **Lecture** | - Managing Data <br> - API and Load Testing Demo | - Managing Continuous Delivery <br> - Manual quality assurance (Sjá) | - Monitoring <br> - Guest lecture on security | Time for students to prepare exam | Exam, 09:00 - 10:30 |
 | **Reading Assignment** | Chapter 12 | Chapter 15 |  |  |  |
-| **Lab exercise** | [- Migrations<br> - API Tests <br> - Capacity Tests<br>](Assignment/Day11/migrations-api-loadtest.md) | [- Test reports<br> - Make Game Playable <br>](Assignment/Day12/Assignment.md) | - Monitoring <br> |  | Week 3 assignment |
+| **Lab exercise** | [- Migrations<br> - API Tests <br> - Capacity Tests<br>](Assignment/Day11/migrations-api-loadtest.md) | [- Test reports<br> - Make Game Playable <br>](Assignment/Day12/Assignment.md) | - [Monitoring](Assignment/Day13/monitoring.md) <br> |  | Week 3 assignment |
 
